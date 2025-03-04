@@ -47,7 +47,7 @@ console.log(y); // ReferenceError: y is not defined
 console.log(z); // ReferenceError: z is not defined
 // accessing z outside the block of code
 
-const a; // SyntaxError: Missing initializer in const declaration
+//const a; // SyntaxError: Missing initializer in const declaration
 
 const PI = 3.14;
 PI = 3.14159; // TypeError: Assignment to constant variable.
